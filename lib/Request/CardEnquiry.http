@@ -1,0 +1,17 @@
+POST https://uatcrm.ascentis.com.sg/Matrixapis/APIsCommandService.asmx HTTP/1.1
+content-type : text/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <SOAPAuthHeader xmlns="http://MatrixAPIs/">
+      <strUserName>dGVzdHVzZXI=</strUserName>
+      <strPassword>dGVzdHBhc3N3b3Jk</strPassword>
+    </SOAPAuthHeader>
+  </soap:Header>
+  <soap:Body>
+    <JSONCommand xmlns="http://MatrixAPIs/">
+       <requestJSON>{"Command":"CARD ENQUIRY","DB":"QA4","EnquiryCode":"PORTAL","OutletCode":"HQ","PosID":"POS","CashierID":"CASHIER","CardNo":"NETS004"}</requestJSON>
+    </JSONCommand>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,15 @@
+POST https://uatcrm.ascentis.com.sg/Matrixapis/APIsService.svc/RequestJson HTTP/1.1
+Content-Type: application/json
+
+{
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXNDb2RlIjoiUUE0IiwicmVxU291cmNlIjoiIiwiZXhwIjoxNTQ4MDY2Mzc5LCJpc3N1ZWRUaW1lIjoxNTQ4MDY1NDc5LCJBdXRvSUQiOm51bGwsIk1lbWJlcklEIjpudWxsfQ.TeMDkAwkU_hcuDMzwoWDOyb2InNqcSQlSQWEG2uRr_g",
+"requestCmd":
+	{
+    "CardNo":"TheLeague01",
+    "Command":"CARD ENQUIRY",
+    "DB":"QA4",
+    "EnquiryCode":"POS",
+    "OutletCode":"HQ",
+    "CashierID":"Cashier0001"
+    }
+}

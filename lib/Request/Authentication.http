@@ -1,0 +1,10 @@
+POST https://uatcrm.ascentis.com.sg/Matrixapis/APIsCommandServiceRest.svc/Authenticate HTTP/1.1
+Content-Type: application/json
+
+{
+"username": "dGVzdHVzZXI=",
+"password": "dGVzdHBhc3N3b3Jk",
+"cusCode": "QA4",
+"reqSource": ""
+}
+
